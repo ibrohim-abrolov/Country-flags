@@ -12,7 +12,7 @@
         <div class="container">
             <div class="header__wrapper">
                 <div class="logo__wrapper">
-                    <a href="./index.html">
+                    <a  class="logo" href="./index.html">
                         <img src="./images/Where in the world_.svg" alt="logo">
                     </a>
                 </div>
@@ -23,5 +23,21 @@
             </div>
         </div>
     </header>
+
+    <form class="site__form" action="./index.html" method="post">
+        <div class="container">
+        <div class="form__wrapper"> 
+        <input type="search" name="search" placeholder="Search for a country…" aria-label="Search country" required>
+        <select name="cars" id="carlist">
+            <option value="Filter by Region">Filter by Region</option>
+            <option value="Africa">Africa</option>
+            <option value="America">America</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="Oceania">Oceania</option>
+        </select>
+        </div>
+        </div>
+    </form>
 </body>
 </html>
